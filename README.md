@@ -1,8 +1,9 @@
 # theano-MLP
 Multilayer Perceptron
 
-command
-  " python main.py"
+command:
+
+  "python main.py"
   
 It will fetch MNIST data from sklearn for training and testing.
 
