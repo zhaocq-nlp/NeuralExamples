@@ -8,7 +8,6 @@ import theano
 import numpy
 import os
 import sys
-from Util import *
 
 
 class MLP(object):
@@ -38,7 +37,7 @@ class MLP(object):
         # all parameters in the model
         self.params = []
         # build multi-layer perceptron architecture
-        if self.verbose: println_log('Building Multilayer Perceptron...')
+        if self.verbose: print('Building Multilayer Perceptron...')
         # forward pass and build output
         for idx in xrange(len(layer_sizes) - 1):
             n_input = layer_sizes[idx]

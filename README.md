@@ -1,3 +1,9 @@
+# NeuralExamples
+
+Neural Networks Examples.
+
+It contains MLP by theano.
+
 # theano-MLP
 Multilayer Perceptron
 
